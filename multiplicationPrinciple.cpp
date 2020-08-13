@@ -32,9 +32,9 @@ int main()
 	  * How many diffrient ways you can create password?
 	  * 
 	  * For first digit you can choose any digit betweent 0-9, so you have 10 choice
-	  * For second digit you can choose andy digit between 0-9, so here you have also 10 chosice
-	  * For third digit you can choose andy digit between 0-9, so here you have also 10 chosice
-	  * For fourth digit you can choose andy digit between 0-9, so here you have also 10 chosice
+	  * For second digit you can choose any digit between 0-9, so here you have also 10 chosice
+	  * For third digit you can choose any digit between 0-9, so here you have also 10 chosice
+	  * For fourth digit you can choose any digit between 0-9, so here you have also 10 chosice
 	  * 
 	  * So here number of diffrient choice = 10*10*10*10 = 10^4 from Multiplication principle
 	  * 
