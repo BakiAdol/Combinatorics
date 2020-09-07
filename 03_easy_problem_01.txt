@@ -1,0 +1,21 @@
+/*
+ * There are 10 diffrent books. 4 maths, 2 physics, 2 biology and 2 chemistry.
+ * How many diffrent ways you can put these books in a self.
+ * 
+ * Constraint : 
+ * 		-> put 10 books in a row
+ * 		-> you can not put first math then physic then math then biology.....
+ * 		-> if you put first math then you have to put all 4 maths book consecutive
+ * 			then if you want to put physics you have to put all 2 physics books.
+ * 		-> order matter
+ * 		-> remember that all 10 books are diffrient
+ * 
+ * Solution :
+ * 	First - As we can't put math-physics-math-biology, that means we must put same types of
+ * 			all subject cosecutively. There are 4 diffrent subject, so here 4! ways we can
+ * 			put 4 types of subjects.
+ * Second - As all books are diffrient, so we can put consecutively 4 math books in 4! ways,
+ * 			2 physics books 2! ways, 2 bology books 2! ways, 2 chemistry books 2! ways
+ * 
+ * So finally total diffrient ways = 4! * 4! * 2! * 2! * 2!
+ * */
