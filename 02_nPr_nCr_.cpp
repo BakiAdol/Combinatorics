@@ -6,6 +6,24 @@
 
 using namespace std;
 
+
+double nCr(double n, double r)
+{
+	/*
+	* n!/((n-r)!*r!)
+	* = 1*2*3....n / (1*2*3...(n-r) * 1*2*3....r)
+	* = n-r+1 * n-r+2 .... n / 1*2*3....r
+	*/
+	
+	double res=1;
+	for(double i=1;i<=r;i++)
+	{
+		res*=n+1-i;
+		res/=i;
+	}
+	return res;
+}
+
 int main()
 {
 	/**
